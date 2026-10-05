@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Relish For Food</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="ThemeZaa" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/relish-favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+    <link rel="stylesheet" href="css/vendors.min.css" />
+    <link rel="stylesheet" href="css/icon.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/responsive.min.css" />
+    <link rel="stylesheet" href="demos/restaurant/restaurant.css" />
+    <!-- Include Flatpickr CSS -->
+    <link rel="stylesheet" href="css/flatpickr.css" />
+
+    <!-- Include Flatpickr JS -->
+    <script src="js/flatpickr.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Tabs Navigation -->
+        <ul class="nav nav-tabs fs-18 fw-500 justify-content-center text-center mb-4 sm-mb-0"
+            data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;rotateX&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#tab_breakfast">
+                    <i class="fa fa-coffee d-block icon-large mb-10px"></i>Breakfast
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab_sides">
+                    <i class="fa fa-hamburger d-block icon-large mb-10px"></i>Sides
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab_burgers">
+                    <i class="fa fa-burger d-block icon-large mb-10px"></i>Burgers
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab_salads">
+                    <i class="fa fa-carrot d-block icon-large mb-10px"></i>Salads
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab_curries">
+                    <i class="fa fa-curry d-block icon-large mb-10px"></i>Curries
+                </a>
+            </li>
+        </ul>
+
+        <!-- Tabs Content -->
+        <div class="tab-content">
+            <!-- Breakfast Tab -->
+            <div id="tab_breakfast" class="tab-pane fade show active">
+                <ul class="menu-list">
+                    <!-- Example Breakfast Item -->
+                    <li class="last-paragraph-no-margin">
+                        <img src="images/relish-full-fix.png" class="rounded" alt="The Relish’s Full Fix">
+                        <div class="ms-30px xs-ms-0 flex-grow-1">
+                            <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                <span class="fw-600 text-white">The Relish’s Full Fix (GF|VE)</span>
+                                <div class="ms-auto fw-600 text-white">$26.00</div>
+                            </div>
+                            <p>2 free range eggs, Cameron Harrison bacon, Polish kransky, seasoned hash, braised mushrooms, smoky beans, Leafs & Sourdough with Relish</p>
+                            <p>ADD:  <br>  Black Pudding $5</p>
+                            <p>Make it vege: Swap bacon & kransky for spinach & halloumi</p>
+                            <p>Make it vegan: Swap eggs, bacon & kransky for roasted tofu, spinach & avo</p>
+                        </div>
+                    </li>
+                    <!-- Add more breakfast items here -->
+                </ul>
+            </div>
+
+            <!-- Sides Tab -->
+            <div id="tab_sides" class="tab-pane fade">
+                <ul class="menu-list">
+                    <li class="last-paragraph-no-margin">
+                        <img src="images/curly-fries.png" class="rounded" alt="Curly Fries">
+                        <div class="ms-30px xs-ms-0 flex-grow-1">
+                            <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                <span class="fw-600 text-white">Curly Fries</span>
+                                <div class="ms-auto fw-600 text-white">$13.00</div>
+                            </div>
+                            <p>With Garlic Aioli n Tomato Sauce</p>
+                        </div>
+                    </li>
+                    <!-- Add more sides items here -->
+                </ul>
+            </div>
+
+            <!-- Burgers Tab -->
+            <div id="tab_burgers" class="tab-pane fade">
+                <ul class="menu-list">
+                    <li class="last-paragraph-no-margin">
+                        <img src="images/firecracker-burger.png" class="rounded" alt="Firecracker Burger">
+                        <div class="ms-30px xs-ms-0 flex-grow-1">
+                            <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                <span class="fw-600 text-white">Firecracker Burger</span>
+                                <div class="ms-auto fw-600 text-white">Price</div>
+                            </div>
+                            <p>A very hot burger with lettuce, tomato, cucumber, pickles, homemade sauce</p>
+                        </div>
+                    </li>
+                    <!-- Add more burger items here -->
+                </ul>
+            </div>
+
+            <!-- Salads Tab -->
+            <div id="tab_salads" class="tab-pane fade">
+                <ul class="menu-list">
+                    <li class="last-paragraph-no-margin">
+                        <img src="images/chicken-bacon-salad.png" class="rounded" alt="Chicken n Bacon Salad">
+                        <div class="ms-30px xs-ms-0 flex-grow-1">
+                            <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                <span class="fw-600 text-white">Chicken n Bacon Salad</span>
+                                <div class="ms-auto fw-600 text-white">$18.00</div>
+                            </div>
+                            <p>Chicken, Crispy Bacon, Lettuce, Tomato, Cucumber & Red Onion with Honey Mustard Mayonnaise</p>
+                        </div>
+                    </li>
+                    <!-- Add more salad items here -->
+                </ul>
+            </div>
+
+            <!-- Curries Tab -->
+            <div id="tab_curries" class="tab-pane fade">
+                <ul class="menu-list">
+                    <li class="last-paragraph-no-margin">
+                        <img src="images/butter-chicken.png" class="rounded" alt="Butter Chicken">
+                        <div class="ms-30px xs-ms-0 flex-grow-1">
+                            <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                <span class="fw-600 text-white">Butter Chicken</span>
+                                <div class="ms-auto fw-600 text-white">Price</div>
+                            </div>
+                            <p>Butter Chicken with Rice</p>
+                        </div>
+                    </li>
+                    <!-- Add more curry items here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

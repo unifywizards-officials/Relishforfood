@@ -1,0 +1,1308 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Relish For Food</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/relish-favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <link rel="stylesheet" href="css/vendors.min.css">
+    <link rel="stylesheet" href="css/icon.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/responsive.min.css">
+    <link rel="stylesheet" href="demos/restaurant/restaurant.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: 62%;
+}
+
+    </style>
+</head>
+
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#383632"
+    class="custom-cursor">
+
+    <div class="cursor-page-inner">
+        <div class="circle-cursor circle-cursor-inner"></div>
+        <div class="circle-cursor circle-cursor-outer"></div>
+    </div>
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg header-transparent bg-transparent header-reverse" data-header-hover="light">
+            <div class="container-fluid">
+                <div class="col-auto col-lg-2 me-lg-0 me-auto">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo 6.png"
+                            data-at2x="images/logo 6.png" alt="" class="default-logo">
+                        <img src="images/demo-restaurant-logo-black.png"
+                            data-at2x="images/demo-restaurant-logo-black.png" alt="" class="alt-logo">
+                        <img src="images/demo-restaurant-logo-black.png"
+                            data-at2x="images/demo-restaurant-logo-black.png" alt="" class="mobile-logo">
+                    </a>
+                </div>
+                <div class="col-auto menu-order position-static">
+                    <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav alt-font ls-1px">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                          <li class="nav-item dropdown dropdown-with-icon">
+                                <a href="menu.html" class="nav-link">Menu</a>
+                                
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a href="menu.html">
+                                            <i class="bi bi-cup-straw"></i> <!-- Bootstrap Icons drink or food icon -->
+                                            <div class="submenu-icon-content">
+                                                <span>Explore Our Menu</span>
+                                                <p>Discover a variety of delicious options for your next event</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                        <a href="catering.html">
+                                            <i class="fa fa-concierge-bell"></i>
+                                            <!-- Font Awesome concierge bell icon -->
+                                            <div class="submenu-icon-content">
+                                                <span>Book a Catering Service</span>
+                                                <p>Elevate your event with our exceptional catering options</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="table.html">
+                                            <i class="fa fa-table"></i>
+                                            <!-- Font Awesome table icon -->
+                                            <div class="submenu-icon-content">
+                                                <span>Book a Table</span>
+                                                <p>
+                                                    Reserve your table to enjoy a memorable dining experience with us
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a>
+                            </li>
+
+                            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto col-lg-4 text-end d-none d-sm-flex">
+                    <div class="header-icon">
+                        <div class="header-button">
+                            <a href="table.html"
+                                class="btn btn-dark-gray btn-small btn-box-shadow left-icon btn-switch-text btn-rounded border-1">
+                                <span>
+                                    <span><i class="feather icon-feather-calendar"></i></span>
+                                    <span class="btn-double-text" data-text="Book a table">Book a table</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="header-icon">
+                        <div class="header-button">
+                            <a href="catering.html"
+                                class="btn btn-dark-gray btn-small btn-box-shadow left-icon btn-switch-text btn-rounded border-1">
+                                <span>
+                                    <span><i class="feather icon-feather-calendar"></i></span>
+                                    <span class="btn-double-text" data-text="Book a Catering Service">Book a Catering
+                                        Service</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <section class="p-0  md-h-700px bg-dark-gray sm-h-600px ipad-top-space-margin cover-background"
+        data-parallax-background-ratio="0.8" style="background-image: url('images/demo-restaurant-home-banner-bg.jpg')">
+        <div class="opacity-light bg-dark-gray"></div>
+        <div class="container h-100">
+            <div class="row align-items-center h-100 justify-content-center">
+                <div class="col-12 position-relative text-center">
+                    <div class="background-repeat bg-base-color border-radius-100 w-700px h-700px lg-w-550px lg-h-550px sm-w-450px sm-h-450px xs-w-320px xs-h-320px mx-auto position-relative d-flex justify-content-center align-items-center"
+                        style="background-image: url(guest/images/demo-restaurant-home-banner-pattern.png);
+                        top: 100px;
+                        padding: 10px 10px !important;
+                        margin-bottom: 126px;"
+                        data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 800, &quot;delay&quot;: 100, &quot;staggervalue&quot;: 100, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                        <div>
+                            <p
+                                class="text-black alt-font fs-26 xs-fs-17 xs-lh-26 ls-1px text-uppercase mb-25px sm-mb-15px mt-10px">
+                                Experience the taste of New Zealand</p>
+                            <div class="alt-font fs-110 lh-100 xs-fs-80 xs-lh-70 mb-30px xs-mb-15px fancy-text-style-4">
+                                <span
+                                    class="text-outline text-outline text-outline-width-1px sm-text-outline-width-1px text-outline-color-white text-outline-base-color-background">Great
+                                    dining</span> <span
+                                    data-fancy-text="{ &quot;effect&quot;: &quot;rotate&quot;, &quot;string&quot;: [&quot;experience&quot;, &quot;restaurant&quot;] }"
+                                    class="text-white ls-minus-2px"></span>
+                            </div>
+                            <a href="about.html"
+                                class="btn btn-extra-large btn-switch-text btn-black btn-round-edge btn-box-shadow mb-10px">
+                                <span>
+                                    <span class="btn-double-text" data-text="Authentic experience">Authentic
+                                        experience</span>
+                                    <span><i class="feather icon-feather-arrow-right"></i></span>
+                                </span>
+                            </a>
+                            <img src="images/bbg-loader.png" alt=""
+                                class="position-absolute right-minus-50px bottom-50px lg-bottom-10px lg-w-180px sm-w-150px animation-float d-none d-sm-inline-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="position-relative overflow-hidden z-index-0">
+        <div
+            class="position-absolute left-0px w-100 text-center top-minus-90px lg-top-minus-60px xs-top-minus-20px opacity-2 ls-minus-10px lg-ls-minus-1px fs-350 lg-fs-250 xs-fs-200 text-nowrap alt-font text-uppercase">
+            experience</div>
+        <div class="position-absolute left-minus-50px mt-15 d-none d-xl-inline-block" data-parallax-liquid="true"
+            data-parallax-transition="2" data-parallax-position="top">
+            <img src="images/demo-restaurant-home-02.jpg" alt="" data-bottom-top="transform: rotate(-30deg)"
+                data-top-bottom="transform:rotate(10deg)">
+        </div>
+        <div class="position-absolute z-index-minus-1 right-minus-50px xxl-right-minus-100px xl-right-minus-50px xl-w-220px d-none d-xl-inline-block"
+            data-parallax-liquid="true" data-parallax-transition="2" data-parallax-position="bottom">
+            <img src="images/demo-restaurant-home-03.jpg" alt="" data-bottom-top="transform: rotate(-30deg)"
+                data-top-bottom="transform:rotate(10deg)">
+        </div>
+        <div class="container">
+            <div class="row align-items-center mb-4 lg-mb-6 lg-mt-5">
+                <div class="col-xl-7 col-lg-6 text-center position-relative md-mb-50px xs-mb-30px"
+                    data-anime="{ &quot;rotateZ&quot;: [-15, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1500, &quot;delay&quot;: 300, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                    <img src="images/demo-restaurant-home-04.png" alt="">
+                </div>
+                <div class="col-xl-5 col-lg-6"
+                    data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                    <span class="fs-15 fw-600 text-red text-uppercase mb-25px d-block"><span
+                            class="w-70px h-2px bg-red d-inline-block align-middle me-15px"></span>since 198o's</span>
+                    <h1 class="alt-font text-dark-gray mb-15px">WELCOME TO RELISH FOR FOOD</h1>
+                    <p class="w-90">Experience the best in corporate catering with “RELISH for FOOD,” a branch of
+                        Wellington’s iconic Relish Café. Located in the Capital on the Quay, we cater to top private and
+                        public sector offices. Our food, renowned for its quality, presentation, and value, reflects the
+                        high standards of Wellington CBD’s discerning professionals. Try us for your next event and
+                        taste the excellence that defines RELISH </p>
+                    <div class="d-inline-block mt-10px xs-mt-0">
+                        <a href="about.html"
+                            class="btn btn-dark-gray btn-large btn-switch-text btn-round-edge btn-box-shadow me-30px xs-me-15px xs-mb-10px">
+                            <span>
+                                <span class="btn-double-text" data-text="About restaurant">About restaurant</span>
+                            </span>
+                        </a>
+                        <div class="alt-font fs-24 d-inline-block align-middle lh-0 text-dark-gray xs-mb-10px"><i
+                                class="feather icon-feather-phone-outgoing me-10px text-base-color"></i><a
+                                href="tel:044738808">(04) 473-8808</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-3 row-cols-md-2 justify-content-center"
+                data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+
+                <div class="col icon-with-text-style-08 md-mb-50px sm-mb-30px">
+                    <div class="feature-box feature-box-left-icon-middle">
+                        <div
+                            class="feature-box-icon feature-box-icon-rounded w-100px h-100px rounded bg-white box-shadow-medium-bottom me-25px">
+                            <i class="bi bi-box-seam d-inline-block icon-medium text-dark-gray"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="d-inline-block alt-font fs-26 text-dark-gray">fast delivery</span>
+                            <p class="lh-22">Within 30 minutes</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col icon-with-text-style-08 md-mb-50px sm-mb-30px">
+                    <div class="feature-box feature-box-left-icon-middle">
+                        <div
+                            class="feature-box-icon feature-box-icon-rounded w-100px h-100px rounded bg-white box-shadow-medium-bottom me-25px">
+                            <i class="bi bi-award d-inline-block icon-medium text-dark-gray"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="d-inline-block alt-font fs-26 text-dark-gray">absolute dining</span>
+                            <p class="lh-22">Best for Corporate & Functions Catering</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col icon-with-text-style-08">
+                    <div class="feature-box feature-box-left-icon-middle">
+                        <div
+                            class="feature-box-icon feature-box-icon-rounded w-100px h-100px rounded bg-white box-shadow-medium-bottom me-25px">
+                            <i class="bi bi-bag-check d-inline-block icon-medium text-dark-gray"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="d-inline-block alt-font fs-26 text-dark-gray">pickup delivery</span>
+                            <p class="lh-22">Grab your food order</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cover-background" style="background-image: url('images/demo-restaurant-home-05.jpg')">
+        <div class="container">
+            <div class="row justify-content-center mb-1">
+                <div class="col-lg-7 text-center"
+                    data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                    <span class="fs-15 fw-600 text-red text-uppercase mb-10px d-block"><span
+                            class="w-5px h-2px bg-red d-inline-block align-middle me-5px"></span>Choose delicious<span
+                            class="w-5px h-2px bg-red d-inline-block align-middle ms-5px"></span></span>
+                    <h2 class="alt-font text-white">Popular menu</h2>
+                </div>
+            </div>
+            <div class="row mb-6 xs-mb-8">
+                <div class="col tab-style-02 fs-600">
+                            <ul class="nav nav-tabs fs-18 fw-500 justify-content-center text-center mb-4 sm-mb-0"
+                            data-anime='{"el": "childs", "rotateX": [30, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad"}'>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk active" data-bs-toggle="tab" href="#tab_first1">
+                                    <i class="fa fa-coffee d-block icon-large mb-10px"></i>Breakfast
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first2">
+                                    <i class="fa fa-carrot d-block icon-large mb-10px"></i>Lunch
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first3">
+                                    <i class="fa fa-utensils d-block icon-large mb-10px"></i>Sides
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first4">
+                                    <i class="fa fa-pepper-hot d-block icon-large mb-10px"></i>Curries
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first1">
+                                    <i class="fa fa-coffee d-block icon-large mb-10px"></i>Breakfast
+                                </a>
+                            </li>
+                        <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first2">
+                                    <i class="fa fa-carrot d-block icon-large mb-10px"></i>Lunch
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first3">
+                                    <i class="fa fa-utensils d-block icon-large mb-10px"></i>Sides
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first4">
+                                    <i class="fa fa-pepper-hot d-block icon-large mb-10px"></i>Curries
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first5">
+                                    <i class="fa fa-leaf d-block icon-large mb-10px"></i>Fresh Salads
+                                </a>
+                            </li>
+                            <li class="nav-item swiper-slide">
+                                <a class="nav-linkk" data-bs-toggle="tab" href="#tab_first6">
+                                    <i class="fa fa-hamburger d-block icon-large mb-10px"></i>Burgers
+                                </a>
+                            </li> </div></div>
+                        </ul>
+          
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active show" id="tab_first1">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 sm-mb-20px">
+                                    <ul class="pricing-table-style-12 pe-15px md-pe-0"
+                                        data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;rotateX&quot;: [-40, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/full-fix.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">The Relish’s Full Fix (GF|VE)
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white">$8.00</div>
+                                                </div>
+                                                <p>2 free range eggs, Cameron Harrison bacon, Polish kransky, seasoned
+                                                    hash, braised mushrooms, smoky beans, Leafs & Sourdough with Relish
+                                                    <br>
+                                                    ADD:  <br>  Black Pudding $5 <br>
+                                                    Make it vege: Swap bacon & kransky for spinach & halloumi <br>
+                                                    Make it vegan: Swap eggs, bacon & kransky for roasted tofu, spinach
+                                                    & avocado
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/Eggs-Your-Way .png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Eggs Your Way (GFO)</span>
+                                                    <div class="ms-auto fw-600 text-white">$16.00</div>
+                                                </div>
+                                                <p>Two free range eggs on toasted Sourdough bread served with Relish <br>
+                                                    ADD: <br>Bacon $5 | 2 Polish Kransky $5 | Black Pudding $5 | Zany Zeus
+                                                    Halloumi $5 | Cold Smoked Salmon $7 | Avo $5 | Spinach $5 | Beans $5
+                                                    | Grilled Toms $5 | Hollandaise $3 | Seasoned Hash $5 | Roasted Tofu
+                                                    $5 | Braised Mushrooms $5
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/Eggs-bene.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Eggs Bene w Bacon | Salmon | Spinach </span>
+                                                    <div class="ms-auto fw-600 text-white">$22</div>
+                                                </div>
+                                                <p>  Crispy bacon | Cold smoked salmon | Freshly wilted spinach (choose 1) with two poached free range eggs on Sourdough with Relish <br>  
+                                                    ADD: <br> Polish Kransky $5 | Black Pudding $5 | Halloumi $5 | Braised Mushrooms $5
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/smashed-avo.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Smashed Avo on Sourdough</span>
+                                                    <div class="ms-auto fw-600 text-white">$22.00</div>
+                                                </div>
+                                                <p> Seasoned avocado with feta, semi dried tomatoes, pickled radish & dukkah & Relish <br> 
+                                                    ADD: <br>  Polish Kransky $5 | Bacon $5 | Black Pudding $5 | Halloumi $5 | Roasted Tofu $5 | Cold Smoked Salmon $5 | One Free Range Egg $3
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="pricing-table-style-12 ps-15px md-ps-0"
+                                        data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;rotateX&quot;: [-40, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                                        
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/masala-egg.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Masala Eggs  
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white">$18.00 </div>
+                                                </div>
+                                                <p>Tomato, Onion, Capsicum with Two Toasted Sourdough, Relish
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/bacon-butty.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Bacon Butty</span>
+                                                    <div class="ms-auto fw-600 text-white">$18.00</div>
+                                                </div>
+                                                <p>Thick Cut Bacon in Toasted Ciabatta with BBQ sauce, Aioli, and Relish. Add Fried Egg: $5</p>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/fete-egg.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Feta Scrambled Egg</span>
+                                                    <div class="ms-auto fw-600 text-white">$20.00</div>
+                                                </div>
+                                                <p>2 Free-Range Eggs, 2 Toast of Sourdough Bread with Relish</p>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/omletter.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Omelette</span>
+                                                    <div class="ms-auto fw-600 text-white">$20.00</div>
+                                                </div>
+                                                <p>2 Free-Range Eggs, Bacon, Tomato & Onion with 2 Toast of Sourdough Bread with Relish. Add: Egg $3 | Cheese $4</p>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/hotcake.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Hotcakes</span>
+                                                    <div class="ms-auto fw-600 text-white">$20.00</div>
+                                                </div>
+                                                <p>Four fluffy Pancakes stacked with bacon & banana in butterscotch caramel sauce.</p>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/salmon.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Smoked Salmon Bagel</span>
+                                                    <div class="ms-auto fw-600 text-white">$18.00</div>
+                                                </div>
+                                                <p>With cream cheese, dill, pickled red onion, and capers.</p>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/granola-bowl.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Granola Bowl</span>
+                                                    <div class="ms-auto fw-600 text-white">$13.50</div>
+                                                </div>
+                                                <p>With Greek yoghurt, fresh fruit & honey.</p>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/fried-chk.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Fried Chicken, Bacon & Waffles</span>
+                                                    <div class="ms-auto fw-600 text-white">$22.00</div>
+                                                </div>
+                                                <p>Baked Belgium waffle, golden panko chicken breast, crispy bacon & fried egg.</p>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade in" id="tab_first2">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 sm-mb-20px">
+                                    <ul class="pricing-table-style-12 pe-15px md-pe-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/shawarma.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Chicken Shawarma</span>
+                                                    <div class="ms-auto fw-600 text-white">$24.00</div>
+                                                </div>
+                                                <p> Mild spiced Chicken, Pickled red Onion, Tahini yogurt, cucumber, Flat bread.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/chk-wings.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">6 Fried Chicken Stripes
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white">$18.00</div>
+                                                </div>
+                                                <p>Chicken Stripes with Ranch Salad & Garlic Aioli
+                                                </p>
+                                            </div>
+                                        </li>
+                                      
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="pricing-table-style-12 ps-15px md-ps-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/open-sand.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Open Sandwich 
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white">$11.00</div>
+                                                </div>
+                                                <p> Hot Bacon, Avocado, Spinach & Cheese on Sourdough Bread
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade in" id="tab_first3">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 sm-mb-20px">
+                                    <ul class="pricing-table-style-12 pe-15px md-pe-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/curly-fries.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Curly Fries   
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white">$13.00</div>
+                                                </div>
+                                                <p>With Garlic Aioli & Tomato Sauce</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/k-fries.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Kūmara Fries </span>
+                                                    <div class="ms-auto fw-600 text-white">$13.00</div>
+                                                </div>
+                                                <p>With Garlic Aioli & Tomato Sauce</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/chilly-cheese-fries.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Chilli Cheese Fries 
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white">$15.00</div>
+                                                </div>
+                                                <p>Chilli Mayo, Onion, Coriander
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="pricing-table-style-12 ps-15px md-ps-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/wedges.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Wedges </span>
+                                                    <div class="ms-auto fw-600 text-white">$13.00</div>
+                                                </div>
+                                                <p>With Sour Cream & Sweet Chilli</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/load-wedges.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Loaded Wedges</span>
+                                                    <div class="ms-auto fw-600 text-white">$15.00</div>
+                                                </div>
+                                                <p>Cheese and Jalapeños with Sour Cream & Sweet Chilli <br> 
+                                                    Add: <br> Bacon $4</p>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade in" id="tab_first4">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 sm-mb-20px">
+                                    <ul class="pricing-table-style-12 pe-15px md-pe-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/btr-chk.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Butter Chicken with Rice
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white">$2.50</div>
+                                                </div>
+                                                <p></p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/reed-chk.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Chicken Red Curry with Rice
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white">$3.00</div>
+                                                </div>
+                                                <p></p>
+                                            </div>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 sm-mb-20px">
+                                    <ul class="pricing-table-style-12 pe-15px md-pe-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/beef.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Beef Massaman Curry with Rice</span>
+                                                    <div class="ms-auto fw-600 text-white">$4.50</div>
+                                                </div>
+                                                <p></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                             
+                            </div>
+                        </div>
+                        <div class="tab-pane fade in" id="tab_first5">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 sm-mb-20px">
+                                    <ul class="pricing-table-style-12 pe-15px md-pe-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/chk-salad.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Chicken & Bacon Salad  
+                                                         
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white">$18.00</div>
+                                                </div>
+                                                <p>Chicken, Crispy Bacon, Lettuce, Tomato, Cucumber & Red Onion with Honey Mustard Mayonnaise</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/caesar-salad.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Caesar Salad  
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white">$18.00</div>
+                                                </div>
+                                                <p>Lettuce, Poached Egg, Bacon & Croutons  
+                                                    Creamy Dressing, with Anchovies</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/cabinet-salad.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Cabinet Salad  
+                                                        
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white">$12.00</div>
+                                                </div>
+                                                <p>Small (1 option)
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="pricing-table-style-12 ps-15px md-ps-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/cabinet-salad.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Cabinet Salad    
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white">$14.00</div>
+                                                </div>
+                                                <p>Medium (2 options)</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/cabinet-salad.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Cabinet Salad    
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white">$16.00</div>
+                                                </div>
+                                                <p>Large (3 options)</p>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> <div class="tab-pane fade in" id="tab_first6">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 sm-mb-20px">
+                                    <ul class="pricing-table-style-12 pe-15px md-pe-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/firecracker.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Firecracker Burger  
+                                                         
+                                                         
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white"></div>
+                                                </div>
+                                                <p>Lettuce, tomato, cucumber, pickles, homemade sauce</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/islander.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">The Big Islander  
+                                                          
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white"></div>
+                                                </div>
+                                                <p>Two smashed beef patties, pickles, tomato, lettuce, cheese, double cheese, caramelised onion</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/beast.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Jam Beast Burger  
+                                                         
+                                                        
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white"></div>
+                                                </div>
+                                                <p>Chicken & bacon, Lettuce, pickles, tomato, caramelised onion, cucumber, homemade sauce
+                                                </p>
+                                            </div>
+                                        </li><li class="last-paragraph-no-margin">
+                                            <img src="images/crown.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Honey Crispy Crown Burger  
+                                                         
+                                                         
+                                                        
+                                                    </span>
+                                                    <div class="ms-auto fw-600 text-white"></div>
+                                                </div>
+                                                <p>Crispy chicken, Lettuce, tomato, cucumber, pickles, homemade sauce (blackberry habanero sauce), cheese
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul class="pricing-table-style-12 ps-15px md-ps-0">
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/protein.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">High Protein Burger  
+                                                        
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white"></div>
+                                                </div>
+                                                <p>Smashed Beef patty, Bacon, lettuce, caramelised onion, pickles, double cheese</p>
+                                            </div>
+                                        </li>
+                                        <li class="last-paragraph-no-margin">
+                                            <img src="images/americano.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">Americano Nachos
+                                                            
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white"></div>
+                                                </div>
+                                                <p>Mince beef, traditional pinto beans, lettuce/cabbage mix and grilled cheese. Topped with guacamole, salsa and sour cream, jalapeño ranch.</p>
+                                            </div>
+                                        </li><li class="last-paragraph-no-margin">
+                                            <img src="images/California.png" class="rounded" alt="">
+                                            <div class="ms-30px xs-ms-0 flex-grow-1">
+                                                <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                                                    <span class="fw-600 text-white">California Nachos
+                                                          
+                                                            
+                                                        </span>
+                                                    <div class="ms-auto fw-600 text-white"></div>
+                                                </div>
+                                                <p>Veggies, Traditional pinto Beans, Lettuce/Cabbage mix and grilled cheese. Topped with guacamole, salsa and sour cream, jalapeño ranch.</p>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center"
+                data-anime="{ &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                <div class="col-12 text-center last-paragraph-no-margin">
+                    <div
+                        class="d-inline-block align-middle bg-red fw-500 text-white border-radius-30px ps-20px pe-20px fs-14 me-10px sm-m-10px">
+                        Masterchef
+                    </div>
+                    <div class="d-inline-block align-middle text-white fs-18 fw-500">Unique and delicious dishes
+                        from the worlds <span class="text-decoration-line-bottom-medium fw-600">best masterchefs.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-4">
+    </section>
+
+
+    <section class="overflow-hidden overlap-height position-relative">
+        <div class="container-fluid overlap-gap-section">
+            <div class="row justify-content-center mb-2">
+                <div class="col-lg-7 text-center"
+                    data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                    <span class="fs-15 fw-600 text-red text-uppercase mb-10px d-block"><span
+                            class="w-5px h-2px bg-red d-inline-block align-middle me-5px"></span>Specials choice<span
+                            class="w-5px h-2px bg-red d-inline-block align-middle ms-5px"></span></span>
+                    <h2 class="alt-font text-dark-gray">Popular dishes</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 position-relative feather-shadow sm-feather-shadow-none">
+                    <div class="outside-box-right-15 outside-box-left-15 sm-outside-box-right-0 sm-outside-box-left-0"
+                        data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                        <div class="swiper swiper-dark-pagination swiper-line-pagination-style-01 magic-cursor"
+                            data-slider-options="{ &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 30, &quot;loop&quot;: true, &quot;autoplay&quot;: { &quot;delay&quot;: 2500, &quot;disableOnInteraction&quot;: false },  &quot;pagination&quot;: { &quot;el&quot;: &quot;.slider-four-slide-pagination-1&quot;, &quot;clickable&quot;: true }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;breakpoints&quot;: { &quot;1200&quot;: { &quot;slidesPerView&quot;: 5 }, &quot;992&quot;: { &quot;slidesPerView&quot;: 3 }, &quot;768&quot;: { &quot;slidesPerView&quot;: 3 }, &quot;576&quot;: { &quot;slidesPerView&quot;: 2 } }, &quot;effect&quot;: &quot;slide&quot; }">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100 border-radius-6px"
+                                                src="images/demo-restaurant-slider-01.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100" src="images/demo-restaurant-slider-02.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100" src="images/demo-restaurant-slider-03.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100" src="images/demo-restaurant-slider-04.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100" src="images/demo-restaurant-slider-05.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100 border-radius-6px"
+                                                src="images/demo-restaurant-slider-01.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100" src="images/demo-restaurant-slider-02.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100" src="images/demo-restaurant-slider-03.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="services-box-style-01 hover-box last-paragraph-no-margin">
+                                        <div class="position-relative box-image border-radius-6px">
+                                            <img class="w-100" src="images/demo-restaurant-slider-04.jpg" alt="">
+                                            <div class="box-overlay bg-dark-gray"></div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-very-light-gray position-relative big-section">
+        <div class="container-fluid overlap-section">
+            <div class="row position-relative mb-4"
+                data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                <div class="col swiper swiper-width-auto text-center"
+                    data-slider-options="{ &quot;slidesPerView&quot;: &quot;auto&quot;, &quot;spaceBetween&quot;:50, &quot;speed&quot;: 10000, &quot;loop&quot;: true, &quot;pagination&quot;: { &quot;el&quot;: &quot;.slider-four-slide-pagination-2&quot;, &quot;clickable&quot;: false }, &quot;allowTouchMove&quot;: false, &quot;autoplay&quot;: { &quot;delay&quot;:0, &quot;disableOnInteraction&quot;: false }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.slider-four-slide-next-2&quot;, &quot;prevEl&quot;: &quot;.slider-four-slide-prev-2&quot; }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;effect&quot;: &quot;slide&quot; }">
+                    <div class="swiper-wrapper marquee-slide">
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-outline text-outline-color-base-color">
+                                Delicious</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-black">Awesome</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-outline text-outline-color-base-color">
+                                Experience</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-black">Cuisine</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-outline text-outline-color-base-color">
+                                Delicious</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-black">Awesome</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-outline text-outline-color-base-color">
+                                Experience</div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="fs-150 ls-minus-2px alt-font text-black">Cuisine</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="position-absolute left-150px xxl-left-50px mt-7 d-none d-xxl-inline-block"
+            data-parallax-liquid="true" data-parallax-transition="1" data-parallax-position="top">
+            <img src="images/demo-restaurant-home-07.png" alt="">
+        </div>
+        <div class="position-absolute right-150px xxl-right-50px d-none d-xxl-inline-block" data-parallax-liquid="true"
+            data-parallax-transition="1" data-parallax-position="bottom">
+            <img src="images/demo-restaurant-home-08.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-10"
+                data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                <div class="swiper slider-custom-image swiper-pagination-bottom magic-cursor testimonials-style-03"
+                    data-slider-options="{ &quot;loop&quot;: true, &quot;pagination&quot;: { &quot;el&quot;: &quot;.slider-custom-image-pagination&quot;, &quot;type&quot;: &quot;bullets&quot;, &quot;clickable&quot;: true }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.swiper-button-next-nav&quot;, &quot;prevEl&quot;: &quot;.swiper-button-previous-nav&quot;, &quot;effect&quot;: &quot;fade&quot; } }"
+                    data-thumbs="[&quot;images/avtar-33.jpg&quot;,&quot;images/avtar-34.jpg&quot;,&quot;images/avtar-35.jpg&quot;]">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-bullet-thumb="background-image: url(images/avtar-27.jpg)">
+                            <div class="d-flex flex-column">
+                                <div class="mb-28 align-self-center text-center w-100">
+                                    <img src="images/demo-restaurant-home-quotes-icon.jpg"
+                                        class="mb-30px rounded" alt="User Icon">
+                                    <h4 class="alt-font lh-38 text-white mb-10px">
+                                        Thank you for the excellent feed! Everyone loved it, and the timing was
+                                        perfect.
+                                    </h4>
+                                    <span class="fs-20 fw-500 text-base-color d-block">Brett</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet-thumb="background-image: url(images/avtar-27.jpg)">
+                            <div class="d-flex flex-column">
+                                <div class="mb-28 align-self-center text-center w-100">
+                                    <img src="images/demo-restaurant-home-quotes-icon.jpg"
+                                        class="mb-30px rounded" alt="User Icon">
+                                    <h4 class="alt-font lh-42 text-white mb-10px">
+                                        Fabulous food on Wednesday! Everyone raved about it. Hot and delivered on
+                                        time.
+                                    </h4>
+                                    <span class="fs-20 fw-500 text-base-color d-block">Andrea</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-bullet-thumb="background-image: url(images/avtar-27.jpg)">
+                            <div class="d-flex flex-column">
+                                <div class="mb-28 align-self-center text-center w-100">
+                                    <img src="images/demo-restaurant-home-quotes-icon.jpg"
+                                        class="mb-30px rounded" alt="User Icon">
+                                    <h4 class="alt-font lh-42 text-white mb-10px">
+                                        The Friday food was a huge hit. Only issue was it was gone too quickly!
+                                    </h4>
+                                    <span class="fs-20 fw-500 text-base-color d-block">Kate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="slider-custom-image-pagination swiper-pagination text-center pb-20px xs-pb-0px md-bottom-0px">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-center overlap-section mb-6 g-0">
+                <div class="col-auto text-center last-paragraph-no-margin bg-white pt-20px pb-20px ps-6 pe-6 border-radius-100px"
+                    data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                    <div
+                        class="text-center bg-golden-yellow text-white fs-16 lh-36 border-radius-30px d-inline-block ps-20px pe-20px align-middle me-10px">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="d-inline-block fs-18 text-dark-gray align-middle fw-500"><span
+                            class="text-decoration-line-bottom-medium fw-600">2500+ happy food lovers</span> visited
+                        our authentic restaurant.</div>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-7 text-center"
+                    data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                    <span class="fs-15 fw-600 text-red text-uppercase mb-10px d-block"><span
+                            class="w-5px h-2px bg-red d-inline-block align-middle me-5px"></span>From our blog<span
+                            class="w-5px h-2px bg-red d-inline-block align-middle ms-5px"></span></span>
+                    <h2 class="alt-font text-dark-gray mb-0">Recent articles</h2>
+                </div>
+            </div>
+            <div class="row blog-metro">
+                <div class="col-12">
+                    <ul class="blog-metro blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large"
+                        data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [0, 0], &quot;perspective&quot;: [1200,1200], &quot;scale&quot;: [1, 1], &quot;rotateX&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 800, &quot;delay&quot;: 200, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                        <li class="grid-sizer"></li>
+                        <li class="grid-item">
+                            <figure class="position-relative mb-0 overflow-hidden border-radius-6px">
+                                <div class="blog-image bg-dark-slate-blue">
+                                    <a href="#"><img src="images/demo-restaurant-blog-01.jpg" alt=""></a>
+                                    <div class="blog-overlay"></div>
+                                </div>
+                                <figcaption class="d-flex flex-column justify-content-end h-100 p-50px lg-p-35px">
+                                    <div class="blog-categories mb-auto">
+                                        <a href="blog.html"
+                                            class="categories-btn bg-white text-dark-gray text-uppercase fw-600 ms-0 mb-auto align-self-start">Restaurant</a>
+                                    </div>
+                                    <a href="blog.html"
+                                        class="text-white card-title fs-28 lh-32 alt-font w-60 xl-w-70 lg-w-80 md-w-70">Never
+                                        eat more than you can life.</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item">
+                            <figure class="position-relative mb-0 overflow-hidden border-radius-6px">
+                                <div class="blog-image bg-dark-slate-blue">
+                                    <a href="#"><img src="images/demo-restaurant-blog-02.jpg" alt=""></a>
+                                    <div class="blog-overlay"></div>
+                                </div>
+                                <figcaption class="d-flex flex-column justify-content-end h-100 p-50px lg-p-35px">
+                                    <div class="blog-categories mb-auto">
+                                        <a href="blog.html"
+                                            class="categories-btn bg-white text-dark-gray text-uppercase fw-600 ms-0 mb-auto align-self-start">Restaurant</a>
+                                    </div>
+                                    <a href="blog.html"
+                                        class="text-white card-title fs-28 lh-32 alt-font w-60 xl-w-70 lg-w-80 md-w-70">Life
+                                        is uncertain Eat dessert first.</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="grid-item">
+                            <figure class="position-relative mb-0 overflow-hidden border-radius-6px">
+                                <div class="blog-image bg-dark-slate-blue">
+                                    <a href="#"><img src="images/demo-restaurant-blog-03.jpg" alt=""></a>
+                                    <div class="blog-overlay"></div>
+                                </div>
+                                <figcaption class="d-flex flex-column justify-content-end h-100 p-50px lg-p-35px">
+                                    <div class="blog-categories mb-auto">
+                                        <a href="blog.html"
+                                            class="categories-btn bg-white text-dark-gray text-uppercase fw-600 ms-0 mb-auto align-self-start">Restaurant</a>
+                                    </div>
+                                    <a href="blog.html"
+                                        class="text-white card-title fs-28 lh-32 alt-font w-60 xl-w-70 lg-w-80 md-w-70">Food
+                                        simply isn't important to me.</a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pb-0 bg-very-lightt-gray cover-background background-position-center-top sm-background-image-none"
+        style="background-image: url('images/demo-restaurant-home-footer-bg.jpg')">
+        <div class="container">
+            <div
+                class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center mt-13 md-mt-15 sm-mt-0 mb-5 sm-mb-50px">
+                <div class="col icon-with-text-style-03 md-mb-30px">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-chat-square-text d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">About restaurant</span>
+                            <p class="w-90 md-w-70 sm-w-80 xs-w-70 mx-auto">Enjoy a wonderful cafe dining experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col icon-with-text-style-03 md-mb-30px">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-telephone-inbound d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">Let's talk</span>
+                            <div class="w-100 d-block">
+                                <span class="d-block">Phone: <a href="tel:+6444738808">(04) 473-8808</a></span>
+                                <!-- <span class="d-block">Fax: 1-800-222-002</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col icon-with-text-style-03 xs-mb-30px">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-envelope-open d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">Book a table</span>
+                            <div class="w-100 d-block">
+                                <span class="d-block">Email us at <a
+                                        href="mailto:relishforfood@gmail.com">relishforfood@gmail.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col icon-with-text-style-03">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-geo-alt d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">Visit us</span>
+                            <p class="md-w-70 sm-w-90 xs-w-70 mx-auto">256 Lambton Quay, CBD, Wellington 6011, New
+                                Zealand
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-top border-color-transparent-dark-very-light pt-25px pb-25px">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-sm-6 fs-15 last-paragraph-no-margin text-center text-sm-start order-3 order-sm-2 order-md-1">
+                        <p>© Copyright 2024 
+                            <a href="https://unifywizards.com/" target="_blank" class="text-decoration-line-bottom text-dark-gray fw-600">
+                                Unify Wizards
+                            </a>
+                        </p>
+                    </div>
+                    
+                    <div class="col-md-4 text-center order-1 order-md-2 sm-mb-20px">
+                        <a href="index.html" class="footer-logo d-inline-block">
+                            <img src="images/demo-restaurant-logo-black@2x.png" data-at2x="images/demo-restaurant-logo-black@2x.png" alt="" class="default-logo" width="159" height="49">
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-4 text-end text-center text-md-end order-2">
+                        <a href="https://unifywizards.com/" target="_blank">
+                            <img src="../blogImages/wizard-logo.png" alt="Unify Wizards Logo" style="max-width: 150px; height: auto;" data-no-retina="">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+ 
+    <div class="scroll-progress d-none d-xxl-block">
+        <a href="#" class="scroll-top" aria-label="scroll">
+            <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+        </a>
+    </div>
+
+
+   
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 8,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+</body>
+
+</html>

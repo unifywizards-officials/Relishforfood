@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Relish For Food</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="ThemeZaa" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/relish-favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+
+    <link rel="stylesheet" href="css/vendors.min.css" />
+    <link rel="stylesheet" href="css/icon.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/responsive.min.css" />
+    <link rel="stylesheet" href="demos/restaurant/restaurant.css" />
+    <!-- Include Flatpickr CSS -->
+    <link rel="stylesheet" href="css/flatpickr.css" />
+
+    <!-- Include Flatpickr JS -->
+    <script src="js/flatpickr.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#383632"
+    class="custom-cursor">
+    <div class="cursor-page-inner">
+        <div class="circle-cursor circle-cursor-inner"></div>
+        <div class="circle-cursor circle-cursor-outer"></div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg header-transparent header-light bg-transparent header-reverse"
+            data-header-hover="light">
+            <div class="container-fluid">
+                <div class="col-auto col-lg-2 me-lg-0 me-auto">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/demo-restaurant-logo-black.png"
+                            data-at2x="images/demo-restaurant-logo-black@2x.png" alt="" class="default-logo" />
+                        <img src="images/demo-restaurant-logo-black.png"
+                            data-at2x="images/demo-restaurant-logo-black@2x.png" alt="" class="alt-logo" />
+                        <img src="images/demo-restaurant-logo-black.png"
+                            data-at2x="images/demo-restaurant-logo-black@2x.png" alt="" class="mobile-logo" />
+                    </a>
+                </div>
+                <div class="col-auto menu-order position-static">
+                    <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav alt-font ls-1px">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item dropdown dropdown-with-icon">
+                                <a href="menu.html" class="nav-link">Menu</a>
+                                
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a href="menu.html">
+                                            <i class="bi bi-cup-straw"></i>
+                                            <!-- Bootstrap Icons drink or food icon -->
+                                            <div class="submenu-icon-content">
+                                                <span>Explore Our Menu</span>
+                                                <p>
+                                                    Discover a variety of delicious options for your
+                                                    next event
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="catering.html">
+                                            <i class="fa fa-concierge-bell"></i>
+                                            <!-- Font Awesome concierge bell icon -->
+                                            <div class="submenu-icon-content">
+                                                <span>Book a Catering Service</span>
+                                                <p>
+                                                    Elevate your event with our exceptional catering
+                                                    options
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="table.html">
+                                            <i class="fa fa-table"></i>
+                                            <!-- Font Awesome table icon -->
+                                            <div class="submenu-icon-content">
+                                                <span>Book a Table</span>
+                                                <p>
+                                                    Reserve your table to enjoy a memorable dining experience with us
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="gallery.html" class="nav-link">Gallery</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto col-lg-4 text-end d-none d-sm-flex">
+                    <div class="header-icon">
+                        <div class="header-button">
+                            <a href="table.html"
+                                class="btn btn-dark-gray btn-small btn-box-shadow left-icon btn-switch-text btn-rounded border-1">
+                                <span>
+                                    <span><i class="feather icon-feather-calendar"></i></span>
+                                    <span class="btn-double-text" data-text="Book a table">Book a table</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="header-icon">
+                        <div class="header-button">
+                            <a href="catering.html"
+                                class="btn btn-dark-gray btn-small btn-box-shadow left-icon btn-switch-text btn-rounded border-1">
+                                <span>
+                                    <span><i class="feather icon-feather-calendar"></i></span>
+                                    <span class="btn-double-text" data-text="Book a Catering Service">Book a Catering
+                                        Service</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section
+        class="ipad-top-space-margin page-title-big-typography cover-background p-0 md-background-position-left-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bg-white box-shadow-extra-large border-radius-6px position-relative p-8">
+                        <img src="images/demo-restaurant-about-title-bg.jpg" class="position-absolute right-0px top-0px"
+                            alt="" data-no-retina="" />
+                        <form action="#" method="post" class="contact-form-style-03 position-relative">
+                            <div class="row">
+                                <div class="col-12 text-center mb-5">
+                                    <span class="fs-15 alt-font fw-600 text-base-color text-uppercase ls-3px">Book Your Exclusive Table</span>
+                                    <h3 class="alt-font text-dark-gray mb-0 ls-minus-1px">Reserve Your Spot for an Unforgettable Meal</h3>
+                                </div>
+                                
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="reservationName"
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Name*</label>
+                                    <div class="position-relative form-group mb-25px">
+                                        <span class="form-icon"><i class="bi bi-person"></i></span>
+                                        <input
+                                            class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                            id="reservationName" type="text" name="reservationName"
+                                            placeholder="Enter your name" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="reservationPhone"
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Phone
+                                        Number*</label>
+                                    <div class="position-relative form-group mb-25px">
+                                        <span class="form-icon"><i class="bi bi-phone"></i></span>
+                                        <input
+                                            class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                            id="reservationPhone" type="tel" name="reservationPhone"
+                                            placeholder="Enter your phone number" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="reservationDate"
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Date*</label>
+                                    <div class="position-relative form-group mb-25px">
+                                        <span class="form-icon"><i class="bi bi-calendar"></i></span>
+                                        <input
+                                            class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                            type="text" id="reservationDate" name="reservationDate"
+                                            placeholder="Select a date" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="reservationTime"
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Time*</label>
+                                    <div class="position-relative form-group mb-25px">
+                                        <span class="form-icon"><i class="bi bi-clock"></i></span>
+                                        <input
+                                            class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                            type="text" id="reservationTime" name="reservationTime"
+                                            placeholder="Enter time" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="guestsNumber"
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Number
+                                        of Guests*</label>
+                                    <div class="position-relative form-group mb-25px">
+                                        <span class="form-icon"><i class="bi bi-people"></i></span>
+                                        <input
+                                            class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                            type="number" id="guestsNumber" name="guestsNumber"
+                                            placeholder="Enter number of guests" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="reservationType"
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Reservation
+                                        Type*</label>
+                                    <div class="position-relative form-group mb-25px">
+                                        <span class="form-icon"><i class="bi bi-journal-text"></i></span>
+                                        <select id="reservationType" name="reservationType"
+                                            class="p-2 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required">
+                                            <option value="">Choose Your Experience</option>
+                                            <option value="FamilyGathering">Family Gathering - Cozy & Comforting
+                                            </option>
+                                            <option value="BusinessMeeting">Business Meeting - Professional & Private
+                                            </option>
+                                            <option value="RomanticDinner">Romantic Dinner - Intimate & Elegant</option>
+                                            <option value="Celebration">Celebration - Vibrant & Festive</option>
+                                            <option value="QuietCorner">Quiet Corner - Calm & Reflective</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-30px">
+                                    <label for="specialRequests"
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Special
+                                        Requests</label>
+                                    <div class="position-relative form-group form-textarea mb-0">
+                                        <textarea
+                                            class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control"
+                                            name="specialRequests" id="specialRequests"
+                                            placeholder="Any special requests" rows="3"></textarea>
+                                        <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 sm-mb-30px">
+                                    <p class="mb-0 fs-14 lh-24 w-80 md-w-100">
+                                        We are committed to protecting your privacy. We will never
+                                        collect information about you without your explicit
+                                        consent.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 text-md-end">
+                                    <input id="exampleInputEmail5" type="hidden" name="redirect" value="" />
+                                    <button class="btn btn-small btn-dark-gray btn-box-shadow btn-round-edge submit"
+                                        type="submit">Submit</button>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-results mt-20px d-none"></div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="pb-0 bg-very-lightt-gray cover-background background-position-center-top sm-background-image-none"
+        style="background-image: url('images/demo-restaurant-home-footer-bg.jpg')">
+        <div class="container">
+            <div
+                class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center mt-13 md-mt-15 sm-mt-0 mb-5 sm-mb-50px">
+                <div class="col icon-with-text-style-03 md-mb-30px">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-chat-square-text d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">About restaurant</span>
+                            <p class="w-90 md-w-70 sm-w-80 xs-w-70 mx-auto">
+                                Enjoy a wonderful cafe dining experience
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col icon-with-text-style-03 md-mb-30px">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-telephone-inbound d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">Let's talk</span>
+                            <div class="w-100 d-block">
+                                <span class="d-block">Phone: <a href="tel:+6444738808">(04) 473-8808</a></span>
+                                <!-- <span class="d-block">Fax: 1-800-222-002</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col icon-with-text-style-03 xs-mb-30px">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-envelope-open d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">Book a table</span>
+                            <div class="w-100 d-block">
+                                <span class="d-block">Email us at
+                                    <a href="mailto:relishforfood@gmail.com">relishforfood@gmail.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col icon-with-text-style-03">
+                    <div class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                        <div class="feature-box-icon">
+                            <i class="bi bi-geo-alt d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                        </div>
+                        <div class="feature-box-content last-paragraph-no-margin">
+                            <span class="fw-700 text-dark-gray fs-15 text-uppercase">Visit us</span>
+                            <p class="md-w-70 sm-w-90 xs-w-70 mx-auto">
+                                256 Lambton Quay, CBD, Wellington 6011, New Zealand
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-top border-color-transparent-dark-very-light pt-25px pb-25px">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div
+                        class="col-md-4 col-sm-6 fs-15 last-paragraph-no-margin text-center text-sm-start order-3 order-sm-2 order-md-1">
+                        <p>
+                            &COPY; Copyright 2024
+                            <a href="https://unifywizards.com/" target="_blank"
+                                class="text-decoration-line-bottom text-dark-gray fw-600">Unify Wizards</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center order-1 order-md-2 sm-mb-20px">
+                        <a href="index.html" class="footer-logo d-inline-block">
+                            <img src="images/demo-restaurant-logo-black.png"
+                                data-at2x="images/demo-restaurant-logo-black@2x.png" alt="" class="default-logo" />
+                        </a>
+                    </div>
+                    <div
+                        class="col-md-4 col-sm-6 elements-social social-icon-style-08 xs-mb-15px text-center text-sm-end order-2 order-sm-3 order-md-3">
+                        <!-- <ul class="small-icon dark d-inline-block">
+                            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="instagram" href="https://www.instagram.com" target="_blank"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li><a class="twitter" href="https://www.twitter.com" target="_blank"><i
+                                        class="fa-brands fa-twitter"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-progress d-none d-xxl-block">
+        <a href="#" class="scroll-top" aria-label="scroll">
+            <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+        </a>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="js/select.js"></script>
+    <script>
+        // Initialize Flatpickr for date
+        flatpickr("#reservationDate", {
+            dateFormat: "Y-m-d",
+            minDate: "today"
+        });
+
+        // Initialize Flatpickr for time
+        flatpickr("#reservationTime", {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: "H:i"
+        });
+    </script>
+</body>
+
+</html>

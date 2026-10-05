@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+    <head>
+        <title>Relish For Food</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="ThemeZaa" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="shortcut icon" href="images/relish-favicon.ico" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72"
+            href="images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114"
+            href="images/apple-touch-icon-114x114.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"
+            crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="css/vendors.min.css" />
+        <link rel="stylesheet" href="css/icon.min.css" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <link rel="stylesheet" href="css/responsive.min.css" />
+        <link rel="stylesheet" href="demos/restaurant/restaurant.css" /> <link
+            rel="stylesheet" href="demos/restaurant/restaurantt.css" />
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/elegant-icons/1.0.1/css/elegant-icons.min.css">
+
+        <!-- Include Flatpickr CSS -->
+        <link rel="stylesheet" href="css/flatpickr.css" />
+
+        <!-- Include Flatpickr JS -->
+        <script src="js/flatpickr.js"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+            rel="stylesheet" />
+    </head>
+
+    <body data-mobile-nav-trigger-alignment="right"
+        data-mobile-nav-style="modern" data-mobile-nav-bg-color="#383632"
+        class="custom-cursor">
+        <div class="cursor-page-inner">
+            <div class="circle-cursor circle-cursor-inner"></div>
+            <div class="circle-cursor circle-cursor-outer"></div>
+        </div>
+
+        <header>
+            <nav
+                class="navbar navbar-expand-lg header-transparent header-light bg-transparent header-reverse"
+                data-header-hover="light">
+                <div class="container-fluid">
+                    <div class="col-auto col-lg-2 me-lg-0 me-auto">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/demo-restaurant-logo-black.png"
+                                data-at2x="images/demo-restaurant-logo-black@2x.png"
+                                alt class="default-logo" />
+                            <img src="images/demo-restaurant-logo-black.png"
+                                data-at2x="images/demo-restaurant-logo-black@2x.png"
+                                alt class="alt-logo" />
+                            <img src="images/demo-restaurant-logo-black.png"
+                                data-at2x="images/demo-restaurant-logo-black@2x.png"
+                                alt class="mobile-logo" />
+                        </a>
+                    </div>
+                    <div class="col-auto menu-order position-static">
+                        <button class="navbar-toggler float-start" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                            <span class="navbar-toggler-line"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav alt-font ls-1px">
+                                <li class="nav-item">
+                                    <a href="index.html"
+                                        class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.html"
+                                        class="nav-link">About</a>
+                                </li>
+                                <li
+                                    class="nav-item dropdown dropdown-with-icon">
+                                    <a href="menu.html"
+                                        class="nav-link">Menu</a>
+
+                                    <ul class="dropdown-menu"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li>
+                                            <a href="menu.html">
+                                                <i class="bi bi-cup-straw"></i>
+                                                <!-- Bootstrap Icons drink or food icon -->
+                                                <div
+                                                    class="submenu-icon-content">
+                                                    <span>Explore Our
+                                                        Menu</span>
+                                                    <p>
+                                                        Discover a variety of
+                                                        delicious options for
+                                                        your
+                                                        next event
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catering.html">
+                                                <i
+                                                    class="fa fa-concierge-bell"></i>
+                                                <!-- Font Awesome concierge bell icon -->
+                                                <div
+                                                    class="submenu-icon-content">
+                                                    <span>Book a Catering
+                                                        Service</span>
+                                                    <p>
+                                                        Elevate your event with
+                                                        our exceptional catering
+                                                        options
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="table.html">
+                                                <i class="fa fa-table"></i>
+                                                <!-- Font Awesome table icon -->
+                                                <div
+                                                    class="submenu-icon-content">
+                                                    <span>Book a Table</span>
+                                                    <p>
+                                                        Reserve your table to
+                                                        enjoy a memorable dining
+                                                        experience with us
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="gallery.html"
+                                        class="nav-link">Gallery</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="blog.html"
+                                        class="nav-link">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html"
+                                        class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto col-lg-4 text-end d-none d-sm-flex">
+                        <div class="header-icon">
+                            <div class="header-button">
+                                <a href="table.html"
+                                    class="btn btn-dark-gray btn-small btn-box-shadow left-icon btn-switch-text btn-rounded border-1">
+                                    <span>
+                                        <span><i
+                                                class="feather icon-feather-calendar"></i></span>
+                                        <span class="btn-double-text"
+                                            data-text="Book a table">Book a
+                                            table</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="header-icon">
+                            <div class="header-button">
+                                <a href="catering.html"
+                                    class="btn btn-dark-gray btn-small btn-box-shadow left-icon btn-switch-text btn-rounded border-1">
+                                    <span>
+                                        <span><i
+                                                class="feather icon-feather-calendar"></i></span>
+                                        <span class="btn-double-text"
+                                            data-text="Book a Catering Service">Book
+                                            a Catering
+                                            Service</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-icon">
+                            <ul id="top_menu">
+                                <li><a href="#0"
+                                        class="search-overlay-menu-btn"></a></li>
+                                <li>
+                                    <div class="dropdown dropdown-cart">
+                                        <a href="shop-cart.html" class="cart_bt"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"><strong>2</strong></a>
+                                        <div class="dropdown-menu" style>
+                                            <ul>
+                                                <li>
+                                                    <figure><img
+                                                            src="img/item_square_small_1.jpg"
+                                                            data-src="img/item_square_small_1.jpg"
+                                                            alt width="50"
+                                                            height="50"
+                                                            class="lazy error"
+                                                            data-was-processed="true"></figure>
+                                                    <strong><span>1x Pizza
+                                                            Napoli</span>$12.00</strong>
+                                                    <a href="#0"
+                                                        class="action"><i
+                                                            class="icon_trash_alt"></i></a>
+                                                </li>
+                                                <li>
+                                                    <figure><img
+                                                            src="img/item_square_small_2.jpg"
+                                                            data-src="img/item_square_small_2.jpg"
+                                                            alt width="50"
+                                                            height="50"
+                                                            class="lazy error"
+                                                            data-was-processed="true"></figure>
+                                                    <strong><span>1x Hamburgher
+                                                            Maxi</span>$10.00</strong>
+                                                    <a href="#0"
+                                                        class="action"><i
+                                                            class="icon_trash_alt"></i></a>
+                                                </li>
+                                                <li>
+                                                    <figure><img
+                                                            src="img/item_square_small_3.jpg"
+                                                            data-src="img/item_square_small_3.jpg"
+                                                            alt width="50"
+                                                            height="50"
+                                                            class="lazy error"
+                                                            data-was-processed="true"></figure>
+                                                    <strong><span>1x Red Wine
+                                                            Bottle</span>$20.00</strong>
+                                                    <a href="#0"
+                                                        class="action"><i
+                                                            class="icon_trash_alt"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="total_drop">
+                                                <div
+                                                    class="clearfix add_bottom_15"><strong>Total</strong><span>$32.00</span></div>
+                                                <a href="shop-cart.html"
+                                                    class="btn_1 outline">View
+                                                    Cart</a><a
+                                                    href="shop-checkout.html"
+                                                    class="btn_1">Checkout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /dropdown-cart-->
+                                </li>
+                            </ul> </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section
+            class="ipad-top-space-margin page-title-big-typography cover-background p-0 md-background-position-left-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div
+                            class="bg-white box-shadow-extra-large border-radius-6px position-relative p-8">
+                            <img src="images/demo-restaurant-about-title-bg.jpg"
+                                class="position-absolute right-0px top-0px"
+                                alt data-no-retina />
+                            <form action="#" method="post"
+                                class="contact-form-style-03 position-relative">
+                                <div class="row">
+                                    <div class="col-12 text-center mb-5">
+                                        <span
+                                            class="fs-15 alt-font fw-600 text-base-color text-uppercase ls-3px">Let's
+                                            Craft Your Perfect Event!</span>
+                                        <h3
+                                            class="alt-font text-dark-gray mb-0 ls-minus-1px">
+                                            Catering Request Form
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="clientName"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Name*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-person"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="clientName" type="text"
+                                                name="clientName"
+                                                placeholder="Enter your name" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="companyName"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Company
+                                            Name*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-building"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="companyName" type="text"
+                                                name="companyName"
+                                                placeholder="Enter your company name" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="companyEmail"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Company
+                                            Email*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-envelope"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="companyEmail" type="email"
+                                                name="companyEmail"
+                                                placeholder="Enter your company email" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="companyAddress"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Company
+                                            Address*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-geo-alt"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="companyAddress" type="text"
+                                                name="companyAddress"
+                                                placeholder="Enter your company address" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="poNumber"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">PO
+                                            Number*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-file-earmark-text"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="poNumber" type="text"
+                                                name="poNumber"
+                                                placeholder="Enter PO number" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="clientPhoneNumber"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Client's
+                                            Phone Number*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-phone"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="clientPhoneNumber"
+                                                type="tel"
+                                                name="clientPhoneNumber"
+                                                placeholder="Enter client's phone number" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="companyPhoneNumber"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Company
+                                            Phone Number*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-telephone"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="companyPhoneNumber"
+                                                type="tel"
+                                                name="companyPhoneNumber"
+                                                placeholder="Enter company phone number" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="cateringItems"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Catering
+                                            Items*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-journal-text"></i></span>
+                                            <select
+                                                class="p-2 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="cateringItems"
+                                                name="cateringItems"
+                                                multiple="multiple">
+                                                <option value disabled>Select
+                                                    catering items</option>
+                                                <option
+                                                    value="Morning Tea 1">Morning
+                                                    Tea 1</option>
+                                                <option
+                                                    value="Morning Tea 2">Morning
+                                                    Tea 2</option>
+                                                <option
+                                                    value="MORNING TEA 3">MORNING
+                                                    TEA 3</option>
+                                                <option
+                                                    value="Morning Tea 4">Morning
+                                                    Tea 4</option>
+                                                <option
+                                                    value="Morning Tea 5">Morning
+                                                    Tea 5</option>
+                                                <option
+                                                    value="Morning Tea 6">Morning
+                                                    Tea 6</option>
+                                                <option
+                                                    value="Quick Lunch 1">Quick
+                                                    Lunch 1</option>
+                                                <option
+                                                    value="Quick Lunch 2">Quick
+                                                    Lunch 2</option>
+                                                <option
+                                                    value="Working Lunch 1">Working
+                                                    Lunch 1</option>
+                                                <option
+                                                    value="Working Lunch 2">Working
+                                                    Lunch 2</option>
+                                                <option
+                                                    value="SEMINAR/MEETING LUNCH 1">
+                                                    SEMINAR/MEETING LUNCH 1
+                                                </option>
+                                                <option
+                                                    value="SEMINAR/MEETING LUNCH 2">
+                                                    SEMINAR/MEETING LUNCH 2
+                                                </option>
+                                                <option
+                                                    value="FRUIT PLATTER">FRUIT
+                                                    PLATTER</option>
+                                                <option
+                                                    value="FRUIT KEBAB PLATTER (20 pieces)">
+                                                    FRUIT KEBAB PLATTER (20
+                                                    pieces)
+                                                </option>
+                                                <option
+                                                    value="FRESH & CRUNCHY VEGETABLE PLATTER">
+                                                    FRESH & CRUNCHY VEGETABLE
+                                                    PLATTER
+                                                </option>
+                                                <option
+                                                    value="FRUIT & CHEESE PLATTER">
+                                                    FRUIT & CHEESE PLATTER
+                                                </option>
+                                                <option
+                                                    value="CHEESE PLATTER">CHEESE
+                                                    PLATTER</option>
+                                                <option
+                                                    value="ASSORTED SCONE PLATTER (20 pieces)">
+                                                    ASSORTED SCONE PLATTER (20
+                                                    pieces)
+                                                </option>
+                                                <option
+                                                    value="ASSORTED BABY MUFFIN PLATTER (40 pieces)">
+                                                    ASSORTED BABY MUFFIN PLATTER
+                                                    (40 pieces)
+                                                </option>
+                                                <option
+                                                    value="SMALL MUFFIN PLATTER (24 pieces)">
+                                                    SMALL MUFFIN PLATTER (24
+                                                    pieces)
+                                                </option>
+                                                <option
+                                                    value="SWEETS PLATTER (20 pieces)">
+                                                    SWEETS PLATTER (20 pieces)
+                                                </option>
+                                                <option
+                                                    value="TRIANGULAR CLUB SANDWICH PLATTER (30 pieces)">
+                                                    TRIANGULAR CLUB SANDWICH
+                                                    PLATTER (30 pieces)
+                                                </option>
+                                                <option
+                                                    value="FINGER CLUB SANDWICH PLATTER (24 pieces)">
+                                                    FINGER CLUB SANDWICH PLATTER
+                                                    (24 pieces)
+                                                </option>
+                                                <option
+                                                    value="BITE-SIZE GOURMET CLUB SANDWICH PLATTER (40 pieces)">
+                                                    BITE-SIZE GOURMET CLUB
+                                                    SANDWICH PLATTER (40 pieces)
+                                                </option>
+                                                <option
+                                                    value="ASSORTED BITE-SIZE WRAP PLATTER (40 pieces)">
+                                                    ASSORTED BITE-SIZE WRAP
+                                                    PLATTER (40 pieces)
+                                                </option>
+                                                <option
+                                                    value="SUSHI PLATTER (40 rolls)">
+                                                    SUSHI PLATTER (40 rolls)
+                                                </option>
+                                                <option
+                                                    value="SAUSAGE ROLL PLATTER (30 pieces) $60">
+                                                    SAUSAGE ROLL PLATTER (30
+                                                    pieces) $60
+                                                </option>
+                                                <option
+                                                    value="SPINACH & FETA CHEESE ROLL PLATTER (24 pieces) $60">
+                                                    SPINACH & FETA CHEESE ROLL
+                                                    PLATTER (24 pieces) $60
+                                                </option>
+                                                <option
+                                                    value="SAVOURY PLATTER 1 (26 pieces)">
+                                                    SAVOURY PLATTER 1 (26
+                                                    pieces)
+                                                </option>
+                                                <option
+                                                    value="SAVOURY PLATTER 2 (24 pieces)">
+                                                    SAVOURY PLATTER 2 (24
+                                                    pieces)
+                                                </option>
+                                                <option
+                                                    value="VIETNAMESE SPRING ROLL PLATTER (24 pieces)">
+                                                    VIETNAMESE SPRING ROLL
+                                                    PLATTER (24 pieces)
+                                                </option>
+                                                <option
+                                                    value="MIXED FOOD PLATTER (30 pieces)">
+                                                    MIXED FOOD PLATTER (30
+                                                    pieces)
+                                                </option>
+                                                <option
+                                                    value="ANTIPASTO PLATTER">
+                                                    ANTIPASTO PLATTER
+                                                </option>
+                                                <option
+                                                    value="KEBAB PLATTER (30 kebabs)">
+                                                    KEBAB PLATTER (30 kebabs)
+                                                </option>
+                                                <option
+                                                    value="MINI SLIDERS (20 filled sliders)">
+                                                    MINI SLIDERS (20 filled
+                                                    sliders)
+                                                </option>
+                                                <option
+                                                    value="SMALL CROISSANT PLATTER (20 filled croissant)">
+                                                    SMALL CROISSANT PLATTER (20
+                                                    filled croissant)
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="deliveryTime"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Delivery
+                                            Time*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-clock"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="deliveryTime" type="text"
+                                                name="deliveryTime"
+                                                placeholder="Enter delivery time" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="deliveryDate"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Delivery
+                                            Date*</label>
+                                        <div
+                                            class="position-relative form-group mb-25px">
+                                            <span class="form-icon"><i
+                                                    class="bi bi-calendar"></i></span>
+                                            <input
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control required"
+                                                id="deliveryDate" type="text"
+                                                name="deliveryDate"
+                                                placeholder="Select a date" />
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mb-30px">
+                                        <label for="dietaryReq"
+                                            class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-500 mb-0">Specific
+                                            Dietary Requirements</label>
+                                        <div
+                                            class="position-relative form-group form-textarea mb-0">
+                                            <textarea
+                                                class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control"
+                                                name="dietaryReq"
+                                                id="dietaryReq"
+                                                placeholder="Describe any specific dietary requirements"
+                                                rows="3"></textarea>
+                                            <span class="form-icon"><i
+                                                    class="bi bi-chat-square-dots"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 sm-mb-30px">
+                                        <p
+                                            class="mb-0 fs-14 lh-24 w-80 md-w-100">
+                                            We are committed to protecting your
+                                            privacy. We will never
+                                            collect information about you
+                                            without your explicit
+                                            consent.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 text-md-end">
+                                        <input id="exampleInputEmail5"
+                                            type="hidden" name="redirect"
+                                            value />
+                                        <button
+                                            class="btn btn-small btn-dark-gray btn-box-shadow btn-round-edge submit"
+                                            type="submit">
+                                            Submit
+                                        </button>
+                                    </div>
+                                    <div class="col-12">
+                                        <div
+                                            class="form-results mt-20px d-none"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer
+            class="pb-0 bg-very-lightt-gray cover-background background-position-center-top sm-background-image-none"
+            style="background-image: url('images/demo-restaurant-home-footer-bg.jpg')">
+            <div class="container">
+                <div
+                    class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center mt-13 md-mt-15 sm-mt-0 mb-5 sm-mb-50px">
+                    <div class="col icon-with-text-style-03 md-mb-30px">
+                        <div
+                            class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                            <div class="feature-box-icon">
+                                <i
+                                    class="bi bi-chat-square-text d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                            </div>
+                            <div
+                                class="feature-box-content last-paragraph-no-margin">
+                                <span
+                                    class="fw-700 text-dark-gray fs-15 text-uppercase">About
+                                    restaurant</span>
+                                <p class="w-90 md-w-70 sm-w-80 xs-w-70 mx-auto">
+                                    Enjoy a wonderful cafe dining experience
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col icon-with-text-style-03 md-mb-30px">
+                        <div
+                            class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                            <div class="feature-box-icon">
+                                <i
+                                    class="bi bi-telephone-inbound d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                            </div>
+                            <div
+                                class="feature-box-content last-paragraph-no-margin">
+                                <span
+                                    class="fw-700 text-dark-gray fs-15 text-uppercase">Let's
+                                    talk</span>
+                                <div class="w-100 d-block">
+                                    <span class="d-block">Phone: <a
+                                            href="tel:+6444738808">(04)
+                                            473-8808</a></span>
+                                    <!-- <span class="d-block">Fax: 1-800-222-002</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col icon-with-text-style-03 xs-mb-30px">
+                        <div
+                            class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                            <div class="feature-box-icon">
+                                <i
+                                    class="bi bi-envelope-open d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                            </div>
+                            <div
+                                class="feature-box-content last-paragraph-no-margin">
+                                <span
+                                    class="fw-700 text-dark-gray fs-15 text-uppercase">Book
+                                    a table</span>
+                                <div class="w-100 d-block">
+                                    <span class="d-block">Email us at
+                                        <a
+                                            href="mailto:relishforfood@gmail.com">relishforfood@gmail.com</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col icon-with-text-style-03">
+                        <div
+                            class="feature-box ps-8 pe-8 lg-ps-0 lg-pe-0 overflow-hidden">
+                            <div class="feature-box-icon">
+                                <i
+                                    class="bi bi-geo-alt d-inline-block icon-medium text-dark-gray mb-15px"></i>
+                            </div>
+                            <div
+                                class="feature-box-content last-paragraph-no-margin">
+                                <span
+                                    class="fw-700 text-dark-gray fs-15 text-uppercase">Visit
+                                    us</span>
+                                <p class="md-w-70 sm-w-90 xs-w-70 mx-auto">
+                                    256 Lambton Quay, CBD, Wellington 6011, New
+                                    Zealand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border-top border-color-transparent-dark-very-light pt-25px pb-25px">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div
+                            class="col-md-4 col-sm-6 fs-15 last-paragraph-no-margin text-center text-sm-start order-3 order-sm-2 order-md-1">
+                            <p>
+                                &COPY; Copyright 2024
+                                <a href="https://unifywizards.com/"
+                                    target="_blank"
+                                    class="text-decoration-line-bottom text-dark-gray fw-600">Unify
+                                    Wizards</a>
+                            </p>
+                        </div>
+                        <div
+                            class="col-md-4 text-center order-1 order-md-2 sm-mb-20px">
+                            <a href="index.html"
+                                class="footer-logo d-inline-block">
+                                <img src="images/demo-restaurant-logo-black.png"
+                                    data-at2x="images/demo-restaurant-logo-black@2x.png"
+                                    alt class="default-logo" />
+                            </a>
+                        </div>
+                        <div
+                            class="col-md-4 col-sm-6 elements-social social-icon-style-08 xs-mb-15px text-center text-sm-end order-2 order-sm-3 order-md-3">
+                            <!-- <ul class="small-icon dark d-inline-block">
+                            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="instagram" href="https://www.instagram.com" target="_blank"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li><a class="twitter" href="https://www.twitter.com" target="_blank"><i
+                                        class="fa-brands fa-twitter"></i></a></li>
+                        </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="scroll-progress d-none d-xxl-block">
+            <a href="#" class="scroll-top" aria-label="scroll">
+                <span class="scroll-text">Scroll</span><span
+                    class="scroll-line"><span
+                        class="scroll-point"></span></span>
+            </a>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/vendors.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <script src="js/select.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            flatpickr("#deliveryDate", {
+                dateFormat: "Y-m-d", // Customize the date format if needed
+                altInput: true,
+                altFormat: "F j, Y",
+                allowInput: true,
+                wrap: false,
+            });
+        });
+    </script>
+
+        <script>
+        $(document).ready(function () {
+            $("#cateringItems").select2({
+                placeholder: "Select items",
+                allowClear: true,
+            });
+        });
+    </script>
+    </body>
+
+</html>
